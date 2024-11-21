@@ -1,0 +1,222 @@
+
+
+
+
+/* =======banner-css======= */
+.icon{
+    border-radius: 50%;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.icon i{
+   margin: 8px;
+}
+
+.carousel img {
+    position: relative;
+}
+
+.content-carousel{
+    position:absolute;
+    top:12rem;
+    left: 7rem;
+}
+
+
+
+/* =========organic fruits-css======= */
+.icon-2 i{
+    color: #3CB815;
+    margin-right: 5px;
+}
+
+
+
+/* =======our features-css======== */
+.border1{
+    border-top: 2px solid #3CB815;
+    margin-left: 19rem;
+    margin-right: 19rem;
+}
+
+.border2{
+    border-bottom: 2px solid #F65005;
+    margin-left: 18rem;
+    margin-right: 18rem;  
+}
+
+.feature-button{
+    color: #3CB815;
+    border: 2px solid #3CB815;
+}
+
+.feature-button:hover{
+    background-color: #3CB815;
+    color: white;
+}
+
+
+
+/* ===========our products-css========= */
+.border3{
+    border-top: 2px solid #3CB815;
+    margin-right: 30rem;
+}
+
+.border4{
+    border-top: 2px solid #F65005;
+    margin-right: 29rem;
+}
+
+.button-card i{
+    color: #3CB815;
+}
+
+
+
+/* ========footer-css======== */
+.card-foot i{
+    color: #3CB815;
+}
+
+.card-foot h6{
+    margin-top: 1rem;
+    color: gray;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 2.5rem;
+}
+
+.footer-icon{
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 0.4rem;
+}
+
+.footer-icon i{
+    margin: 11px;
+}
+
+.footer i{
+    margin-right: 0.5rem;
+}
+
+
+
+/* =========responsive-css========= */
+@media screen and (max-width:1400px) {
+    .border1{
+        margin-left:15.5rem;
+        margin-right: 15.5rem;
+    }
+
+    .border2{
+        margin-left: 15rem;
+        margin-right: 15rem;  
+    }
+
+    .border3{
+        margin-right: 24.5rem;
+    }
+    
+    .border4{
+        margin-right: 24rem;
+    }
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .border1{
+        margin-left:13rem;
+        margin-right: 13rem;
+    }
+
+    .border2{
+        margin-left: 12.5rem;
+        margin-right: 12.5rem;  
+    }
+
+    .border3{
+        margin-right: 20rem;
+    }
+    
+    .border4{
+        margin-right: 19.5rem;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .border1{
+        margin-left:9.5rem;
+        margin-right: 9.5rem;
+    }
+
+    .border2{
+        margin-left: 9rem;
+        margin-right: 9rem;  
+    }
+    .border3{
+        margin-right: 14rem;
+    }
+    
+    .border4{
+        margin-right: 13.5rem;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .border1{
+        margin-left:15rem;
+        margin-right: 15rem;
+    }
+
+    .border2{
+        margin-left:14.5rem ;
+        margin-right:14.5rem;   
+    }
+
+    .border3{
+        margin-right: 29rem;
+    }
+    
+    .border4{
+        margin-right: 28.5rem;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .border1{
+        margin-left:15rem;
+        margin-right: 15rem;
+    }
+
+    .border2{
+        margin-left: 14.5rem;
+        margin-right: 14.5rem;  
+    }
+
+    .border3{
+        margin-right: 29rem;
+    }
+    
+    .border4{
+        margin-right: 28.5rem;
+    }
+
+}
